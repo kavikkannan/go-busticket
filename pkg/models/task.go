@@ -32,7 +32,7 @@ type Bus struct {
 	From	string `json:"from"`
 	To string `json:"to"`
 	Date    string `json:"date" `
-	Duration string  `json:"Duration"`
+	Starttime string  `json:"starttime"`
 }
 
 type Busseat struct {
