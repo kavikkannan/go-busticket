@@ -15,7 +15,7 @@ func main() {
 
 	// Create a CORS handler with your desired options.
 	c := cors.New(cors.Options{
-		AllowedOrigins: []string{"http://localhost:3000"}, // Add your frontend origin here
+		AllowedOrigins: []string{"https://busticketbooking-topaz.vercel.app"}, // Add your frontend origin here
 		AllowedMethods: []string{"GET", "POST", "PUT", "DELETE"}, // Define allowed HTTP methods
 		AllowedHeaders: []string{"Content-Type"}, // Define allowed headers
 	})
